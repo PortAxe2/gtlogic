@@ -1,0 +1,59 @@
+@media only screen and (min-width: 750px) {
+    .skills{
+        flex-wrap: wrap;
+        &-technical{
+            justify-content: space-around;
+        }
+        &-creative{
+            justify-content: center;
+        }
+    }
+    .creativeSkillsHeader{
+        padding-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .skills{
+        width: 100vw;
+        overflow-y: scroll;
+        scroll-snap-type: x mandatory;
+        justify-content: flex-start;
+    }
+    
+}
+
+.techSkillsHeader, .creativeSkillsHeader{
+    margin-top: 64px;
+    font-size: 18pt;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.creativeSkillsHeader{
+    width: 100%;
+    max-width: 1200px;
+    padding: 24px 0px;
+    transform: scaleY(1.1);
+    text-align: center;
+
+    color: white;
+    background-color: #171717;
+}
+
+.skills{
+    width: inherit;
+    max-width: 1200px;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 32px 0px;
+
+    &-creative{
+        background-color: #171717;
+    }
+
+}

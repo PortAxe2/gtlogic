@@ -1,0 +1,43 @@
+.spotifyResume {
+  width: 80vw;
+  max-width: 300px;
+  height: 80px;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  margin: 12px;
+  border-radius: 8px;
+  border: 2px solid #191414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #191414;
+}
+
+.spotifyResume:hover {
+  cursor: pointer;
+  color: black;
+  background-color: #19141400;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.spotifyResume .spotifyResumeTxt, .spotifyResume .spotifyResumeImg {
+  margin-left: 16px;
+}
+
+.spotifyResume .spotifyResumeImg {
+  height: 70%;
+}
+
+.spotifyResume .spotifyResumeTxt {
+  font-size: 16pt;
+  font-weight: 600;
+}
+/*# sourceMappingURL=spotifyresume.css.map */

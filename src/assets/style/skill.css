@@ -1,0 +1,105 @@
+@media only screen and (min-width: 750px) {
+  .skill {
+    margin: 8px 0px;
+  }
+  .skill-technical {
+    -ms-flex-preferred-size: 21%;
+        flex-basis: 21%;
+  }
+  .skill-creative {
+    margin: 0px 12px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .skill {
+    margin: 8px;
+    scroll-snap-align: center;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .skill:first-of-type {
+    margin-left: calc(50vw - 80px);
+  }
+  .skill:last-of-type {
+    margin-right: calc(50vw - 80px);
+  }
+}
+
+.skill {
+  width: 160px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 8px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.skill-technical {
+  -webkit-filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.2));
+  background-color: white;
+}
+
+.skill-technical:hover {
+  -webkit-filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.3));
+}
+
+.skill-creative {
+  color: white;
+  -webkit-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.1));
+          filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.1));
+  background-color: #222222;
+}
+
+.skill-creative:hover {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(255, 255, 255, 0.15));
+}
+
+.skill:hover {
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+}
+
+.skill .skillSeperator {
+  height: 1px;
+  width: 40%;
+  margin: 16px 0px;
+  border: none;
+}
+
+.skill .skillSeperator-technical {
+  background-color: black;
+}
+
+.skill .skillSeperator-creative {
+  background-color: white;
+}
+
+.skill .skillImage {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+/*# sourceMappingURL=skill.css.map */

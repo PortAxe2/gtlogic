@@ -1,0 +1,39 @@
+.spotifyResume{
+    width: 80vw;
+    max-width: 300px;
+    height: 80px;
+
+    transition: 0.2s ease-out;
+
+    
+    margin: 12px;
+    border-radius: 8px;
+    
+    border: 2px solid #191414;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: white;
+    background-color:#191414;
+    
+    &:hover{
+        cursor: pointer;
+        color: black;
+        background-color:#19141400;
+        transition: 0.2s ease-out;
+    }
+
+    .spotifyResumeTxt, .spotifyResumeImg {
+        margin-left: 16px;
+    }
+    
+    .spotifyResumeImg{
+        height: 70%;
+    }
+
+    .spotifyResumeTxt{
+        font-size: 16pt;
+        font-weight: 600;
+    }
+}
