@@ -64,8 +64,8 @@ export default {
                 },
                 {
                     'skillId': '6',
-                    'skillName': 'SASS',
-                    'skillImage': 'https://i.imgur.com/vA3QqVt.png'
+                    'skillName': 'Node.js',
+                    'skillImage': 'https://i.imgur.com/5t5QgOi.png'
                 },
                 {
                     'skillId': '7',
