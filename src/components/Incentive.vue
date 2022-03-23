@@ -4,7 +4,7 @@
         After hearing about gtlogic from a friend, I wanted
         to see if I could be a fit for a position there. Going through
         the website and reading up about their mission and work
-        ethics,  I became heavily interested in landing a job at gtlogic.
+        ethics,  I became heavily interested in landing a job there.
     </p>
     <div class="incentiveList">
         <div class="incentive">
@@ -15,10 +15,10 @@
                     One of the most important things for any employee,
                     especially as a junior, is the opportunity to join
                     a team and an enviornment which help him achieve his
-                    full potential. And after reading the website’s ‘people’
-                    section,  I found that gtlogic perfectly embodies what I’m
+                    full potential. And after reading the website's 'people'
+                    section,  I found that gtlogic perfectly embodies what I'm
                     looking for in a workplace.The balance of hard work and a
-                    fun environment is something I’d love to be a part of!
+                    fun environment is something I'd love to be a part of!
                 </p>
             </div>
         </div>
@@ -27,9 +27,9 @@
             <div class="incentiveTxt">
                 <p class="incentiveTxtHeader">ABOUT ME</p>
                 <p class="incentiveTxtBrief">
-                    For over a year now, I’ve been improving my Full-Stack
+                    For over a year now, I've been improving my Full-Stack
                     skills, with an emphasis on Front-End. In my last semester
-                    of universitty, I took various courses related to web
+                    of university, I took various courses related to web
                     development and databases. Ever since I graduated, I
                     worked on improving my skills by learning new technologies
                     and frameworks. Recently, I worked with 2 clients to build
