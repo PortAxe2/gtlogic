@@ -4,7 +4,7 @@
             <p>Contact Info</p>
             <hr class="footerSeperator">
             <p>Badih Chehab</p>
-            <p>badihgchehab@gmail.com</p>
+            <a href="mailto:" style="color: white;">badihgchehab@gmail.com</a>
             <p>+33 6 95 73 94 46</p>
         </div>
         <div class="footerDivLinksList">
